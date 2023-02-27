@@ -2,7 +2,6 @@
     margin: 0;
     font-family: Open Sans;
 }
-
 .text-primary {
     color: #FD6E0A;
 }
@@ -211,12 +210,21 @@ section {
 .contact {
     background: #FFF8F3;
     display: flex;
-    gap: 30px;
+    gap: 100px;
     padding: 100px 120px;
+}
+
+.fa-brands {
+    color: #FD6E0A;
+    font-size: 29px;
+    margin: 15px;
 }
 .contact input[type='text'], input[type='email'], textarea {
     margin-bottom: 20px;
     border: none;
     width: 100%;
     padding: 15px 30px;
+}
+.footer-title {
+    text-align: left;
 }
